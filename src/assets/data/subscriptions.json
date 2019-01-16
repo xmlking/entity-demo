@@ -1,0 +1,12 @@
+[
+  {
+    "id": 13,
+    "endpoint": "https://fcm.googleapis.com/fcm/send/c8eq7G-b2mc:APA91bFp2Gof...",
+    "auth": "123456",
+    "p256dh": "abcd",
+    "userId": "sumo3",
+    "topics": ["topic_1", "topic_2"],
+    "createdAt": "2018-11-21T18:50:45.325Z",
+    "updatedAt": "2018-11-21T18:50:45.325Z"
+  }
+]
