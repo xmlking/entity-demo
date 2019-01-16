@@ -1,10 +1,9 @@
 import { InMemoryDbService, ParsedRequestUrl, RequestInfo, RequestInfoUtilities } from 'angular-in-memory-web-api';
 import { Injectable } from '@angular/core';
 
-// @Injectable({
-//   providedIn: 'root',
-// })
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class InMemoryDataService implements InMemoryDbService {
   async createDb() {
     const response = await fetch('assets/data/accounts.json');
